@@ -1,6 +1,6 @@
 {
   "name": "invisible-watermark",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "watermark auto injector",
   "main": "lib/main.js",
   "scripts": {
