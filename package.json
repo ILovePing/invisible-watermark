@@ -1,0 +1,25 @@
+{
+  "name": "invisible-watermark",
+  "version": "1.0.16",
+  "description": "watermark auto injector",
+  "main": "lib/main.js",
+  "scripts": {
+    "compile": "tsc",
+    "compile:watch": "tsc --watch",
+    "precompile": "rm -rf lib && npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ILovePing/invisible-watermark.git"
+  },
+  "keywords": [
+    "watermark",
+    "autoinject"
+  ],
+  "author": "zhouri",
+  "license": "ISC",
+  "devDependencies": {
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.2"
+  }
+}
